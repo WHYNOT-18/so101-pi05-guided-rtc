@@ -12,8 +12,9 @@ __pycache__/
 .ipynb_checkpoints/
 *.tar
 *.tar.gz
-# Publish videos separately; keep small preview images/GIFs in assets.
+# Video is stored using Git LFS.
 *.mp4
+!assets/demo.mp4
 *.mkv
 *.rrd
 .DS_Store

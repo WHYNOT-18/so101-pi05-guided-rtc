@@ -10,7 +10,7 @@
 
 ![SO-101 双积木抓放演示](assets/demo.gif)
 
-*真机执行演示（1.5 倍速）。[下载完整演示视频](https://github.com/WHYNOT-18/so101-pi05-guided-rtc/releases/download/v1.0/demo.mp4)。*
+*真机执行演示（1.5 倍速）。完整演示视频见 [assets/demo.mp4](assets/demo.mp4)。*
 
 基于双相机和关节状态，机械臂依次将红、蓝积木放入盒中。本地以 25 Hz 控制从臂，通过异步队列接收云端动作块，并使用 Guided RTC 衔接执行。
 
@@ -58,7 +58,7 @@ flowchart LR
 
 ```text
 .
-├── assets/                       # 演示GIF（完整视频见Release）
+├── assets/                       # 演示GIF及完整视频（Git LFS）
 ├── configs/
 │   ├── policy_config.json        # 输入输出与RTC配置
 │   ├── train_config.json         # 两阶段训练参数
