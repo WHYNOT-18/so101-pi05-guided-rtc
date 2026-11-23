@@ -1,0 +1,142 @@
+{
+  "episodes": 20,
+  "successes": 17,
+  "failures": 3,
+  "success_rate": 0.85,
+  "failure_episodes": [
+    3,
+    7,
+    18
+  ],
+  "successful_marked_duration_mean": 25.171879666646845,
+  "successful_marked_duration_median": 22.701200465999136,
+  "request_roundtrip": {
+    "count": 1047,
+    "p50": 207.57518699974753,
+    "p95": 353.20156879934063,
+    "max": 615.8957269981329
+  },
+  "video": {
+    "full_decode_passed": true,
+    "decoded_frames": 24172,
+    "resolution": [
+      640,
+      480
+    ],
+    "monotonic_pts": true,
+    "duration_last_frame_seconds": 807.576232,
+    "reported_capture_duration": 807.5762318769994,
+    "writer_dropped_frames": 0,
+    "observed_fps": 29.930301370832623,
+    "bytes": 135226662
+  },
+  "fixed_version_verified": true,
+  "protocol": {
+    "task": "先红后蓝，依次将两块积木放入盒子",
+    "regrasp_allowed": true,
+    "time_limit_seconds": null,
+    "outcomes": "manual"
+  },
+  "per_episode": [
+    {
+      "episode": 1,
+      "success": true,
+      "motion_seconds": 26.62545801200031
+    },
+    {
+      "episode": 2,
+      "success": true,
+      "motion_seconds": 21.166791195999394
+    },
+    {
+      "episode": 3,
+      "success": false,
+      "motion_seconds": 23.839502200000425
+    },
+    {
+      "episode": 4,
+      "success": true,
+      "motion_seconds": 21.480038527999568
+    },
+    {
+      "episode": 5,
+      "success": true,
+      "motion_seconds": 33.78428305499983
+    },
+    {
+      "episode": 6,
+      "success": true,
+      "motion_seconds": 19.615314355996816
+    },
+    {
+      "episode": 7,
+      "success": false,
+      "motion_seconds": 17.092377777000365
+    },
+    {
+      "episode": 8,
+      "success": true,
+      "motion_seconds": 19.243286051001633
+    },
+    {
+      "episode": 9,
+      "success": true,
+      "motion_seconds": 24.533939687000384
+    },
+    {
+      "episode": 10,
+      "success": true,
+      "motion_seconds": 34.62767840500237
+    },
+    {
+      "episode": 11,
+      "success": true,
+      "motion_seconds": 28.982117645999097
+    },
+    {
+      "episode": 12,
+      "success": true,
+      "motion_seconds": 22.55987376399935
+    },
+    {
+      "episode": 13,
+      "success": true,
+      "motion_seconds": 19.32510538600036
+    },
+    {
+      "episode": 14,
+      "success": true,
+      "motion_seconds": 20.273492469001212
+    },
+    {
+      "episode": 15,
+      "success": true,
+      "motion_seconds": 43.82018254200011
+    },
+    {
+      "episode": 16,
+      "success": true,
+      "motion_seconds": 21.12356988600004
+    },
+    {
+      "episode": 17,
+      "success": true,
+      "motion_seconds": 23.76029656099854
+    },
+    {
+      "episode": 18,
+      "success": false,
+      "motion_seconds": 22.779881444999774
+    },
+    {
+      "episode": 19,
+      "success": true,
+      "motion_seconds": 24.29932632299824
+    },
+    {
+      "episode": 20,
+      "success": true,
+      "motion_seconds": 22.701200465999136
+    }
+  ]
+}

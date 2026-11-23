@@ -1,0 +1,27 @@
+# CPU-only data pipeline; torch/torchcodec/pandas inherited from the
+# existing LeRobot environment through a separate --system-site-packages venv.
+jax==0.5.3
+jaxlib==0.5.3
+flax==0.10.2
+numpy==1.26.4
+equinox==0.12.2
+orbax-checkpoint==0.11.13
+ml-dtypes==0.4.1
+tensorstore==0.1.74
+jaxtyping==0.2.36
+beartype==0.19.0
+tyro==0.9.22
+augmax==0.4.1
+ml_collections==1.0.0
+numpydantic==1.6.9
+pydantic==2.11.5
+sentencepiece==0.2.0
+transformers==4.53.2
+tqdm-loggable==0.2
+datasets==3.6.0
+treescope==0.1.9
+optax==0.2.4
+chex==0.1.90
+etils[epath,epy]==1.12.2
+opencv-python==4.11.0.86
+pyarrow==19.0.1

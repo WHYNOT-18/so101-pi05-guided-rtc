@@ -1,0 +1,104 @@
+{
+  "total_updates": 10000,
+  "validation_protocol": {
+    "episodes": 20,
+    "frames": 8000,
+    "seed": 424242,
+    "batch_size": 16,
+    "metric": "frame_weighted_flow_matching_loss_fixed_noise"
+  },
+  "best_step": 7000,
+  "best_validation_loss": 0.010332142731007188,
+  "validation_history": [
+    {
+      "step": 1000,
+      "validation_loss": 0.013111371953338384,
+      "frames": 8000,
+      "episodes": 20,
+      "batches": 500,
+      "seconds": 409.15843853726983,
+      "seed": 424242
+    },
+    {
+      "step": 2000,
+      "validation_loss": 0.011827002346254886,
+      "frames": 8000,
+      "episodes": 20,
+      "batches": 500,
+      "seconds": 376.4918652679771,
+      "seed": 424242
+    },
+    {
+      "step": 3000,
+      "validation_loss": 0.011095043741576374,
+      "frames": 8000,
+      "episodes": 20,
+      "batches": 500,
+      "seconds": 374.5871642474085,
+      "seed": 424242
+    },
+    {
+      "step": 4000,
+      "validation_loss": 0.010716324316803366,
+      "frames": 8000,
+      "episodes": 20,
+      "batches": 500,
+      "seconds": 372.1365149151534,
+      "seed": 424242
+    },
+    {
+      "step": 5000,
+      "validation_loss": 0.010479976461771876,
+      "frames": 8000,
+      "episodes": 20,
+      "batches": 500,
+      "seconds": 373.3113176561892,
+      "seed": 424242
+    },
+    {
+      "step": 6000,
+      "validation_loss": 0.010465559188295157,
+      "frames": 8000,
+      "episodes": 20,
+      "batches": 500,
+      "seconds": 370.2698447071016,
+      "seed": 424242
+    },
+    {
+      "step": 7000,
+      "validation_loss": 0.010332142731007188,
+      "frames": 8000,
+      "episodes": 20,
+      "batches": 500,
+      "seconds": 391.64625029452145,
+      "seed": 424242
+    },
+    {
+      "step": 8000,
+      "validation_loss": 0.010359492443837225,
+      "frames": 8000,
+      "episodes": 20,
+      "batches": 500,
+      "seconds": 370.43262584134936,
+      "seed": 424242
+    },
+    {
+      "step": 9000,
+      "validation_loss": 0.010567907018419356,
+      "frames": 8000,
+      "episodes": 20,
+      "batches": 500,
+      "seconds": 371.1757157407701,
+      "seed": 424242
+    },
+    {
+      "step": 10000,
+      "validation_loss": 0.010525703884679823,
+      "frames": 8000,
+      "episodes": 20,
+      "batches": 500,
+      "seconds": 371.60913863033056,
+      "seed": 424242
+    }
+  ]
+}

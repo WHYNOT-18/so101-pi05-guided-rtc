@@ -1,0 +1,19 @@
+# Local runtime and large artifacts
+/work/
+/outputs/
+/datasets/
+/checkpoints/
+/models/
+/cache/
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.tar
+*.tar.gz
+# Publish videos separately; keep small preview images/GIFs in assets.
+*.mp4
+*.mkv
+*.rrd
+.DS_Store

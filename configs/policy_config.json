@@ -1,0 +1,51 @@
+{
+  "model": "pi0.5",
+  "checkpoint_step": 7000,
+  "action_horizon": 50,
+  "action_dim": 32,
+  "physical_action_dim": 6,
+  "action_mode": "absolute_joint_targets",
+  "joint_names": [
+    "shoulder_pan.pos",
+    "shoulder_lift.pos",
+    "elbow_flex.pos",
+    "wrist_flex.pos",
+    "wrist_roll.pos",
+    "gripper.pos"
+  ],
+  "joint_units": [
+    "degrees",
+    "degrees",
+    "degrees",
+    "degrees",
+    "degrees",
+    "lerobot_0_to_100"
+  ],
+  "camera_mapping": {
+    "front": "base_0_rgb",
+    "wrist": "left_wrist_0_rgb",
+    "masked_placeholder": "right_wrist_0_rgb"
+  },
+  "image_shape": [
+    224,
+    224,
+    3
+  ],
+  "control_hz": 25,
+  "sampling_steps": 10,
+  "rtc": {
+    "method": "VJP_soft_inpainting",
+    "beta": 5,
+    "soft_prefix_steps": 6,
+    "cruise_replan_steps": 20,
+    "approach_replan_steps": 8,
+    "minimum_delay_steps": 8,
+    "approach_minimum_delay_steps": 5,
+    "approach_soft_tail_steps": 2,
+    "smoothing_window": 4,
+    "joint_speed_deg_s": 60,
+    "gripper_speed_units_s": 100
+  },
+  "norm_stats_file": "norm_stats.json",
+  "norm_stats_sha256": "8a29974738a197f81880b2a5ddccaf5f94084f1662ac6dbcaf1a978bbd64c280"
+}

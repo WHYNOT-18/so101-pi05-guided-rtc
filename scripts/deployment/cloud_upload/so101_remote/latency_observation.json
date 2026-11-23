@@ -1,0 +1,9 @@
+{
+  "split": "val",
+  "dataset_index": 0,
+  "episode_index": 0,
+  "frame_index": 0,
+  "task": "Pick up the red block and place it in the box, then pick up the blue block and place it in the box.",
+  "purpose": "recorded observation for latency measurement only; no robot control",
+  "image_preprocessing": "RGB uint8, OpenPI PIL resize_with_pad to 224x224; PyAV frame PTS matches parquet timestamp"
+}

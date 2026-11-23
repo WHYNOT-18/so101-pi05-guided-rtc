@@ -1,0 +1,55 @@
+{
+  "description": "Archived training configuration. Merge common with a stage to recover that stage configuration; training scripts define their runtime configuration in Python.",
+  "common": {
+    "exp_name": "formal6000_b16_20261118_134620_14830",
+    "batch_size": 16,
+    "checkpoint_interval": 1000,
+    "validation_interval": 1000,
+    "validation_frames": 8000,
+    "validation_episodes": 20,
+    "evaluation_seed": 424242,
+    "validation_metric": "frame_weighted_flow_matching_loss_fixed_noise",
+    "peak_lr": 2.5e-05,
+    "final_lr": 2.5e-06,
+    "warmup_steps": 250,
+    "decay_steps": 6000,
+    "optimizer": "AdamW",
+    "b1": 0.9,
+    "b2": 0.95,
+    "eps": 1e-08,
+    "weight_decay": 1e-10,
+    "gradient_clip": 1.0,
+    "seed": 42,
+    "ema": null,
+    "lora_rank": 16,
+    "lora_alpha": 16,
+    "vision_encoder_frozen": true,
+    "language_backbone_frozen": true,
+    "action_expert_full_training": true,
+    "horizon": 50,
+    "base_weights": "/root/autodl-tmp/so101/models/verified_pi05/params",
+    "initialized_from_smoke_checkpoint": false,
+    "train_episodes": 100,
+    "norm_stats_sha256": "8a29974738a197f81880b2a5ddccaf5f94084f1662ac6dbcaf1a978bbd64c280",
+    "test_set_used": false,
+    "checkpoint_dir": "/root/autodl-tmp/so101/checkpoints/pi05_so101_data/formal6000_b16_20261118_134620_14830"
+  },
+  "stages": {
+    "initial_training": {
+      "steps": 6000,
+      "initial_free_disk_GiB": 211.39047241210938
+    },
+    "continuation": {
+      "steps": 10000,
+      "resumed_from_step": 6000,
+      "additional_updates": 4000,
+      "optimizer_state_restored": true,
+      "data_iterator_restored": false,
+      "training_index_order_reconstructed": true,
+      "worker_random_states_restored": false,
+      "training_shuffle_reseeded": false,
+      "training_loader_seed": 42,
+      "initial_free_disk_GiB": 157.53238677978516
+    }
+  }
+}

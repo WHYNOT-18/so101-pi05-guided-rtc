@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "checkpoint": "/root/autodl-tmp/so101/checkpoints/pi05_so101_data/formal6000_b16_20261118_134620_14830/7000",
+  "split": "test",
+  "full_test_evaluated": true,
+  "frames": 8000,
+  "episodes": 20,
+  "batch_size": 1,
+  "batches": 8000,
+  "flow_matching_loss": 0.009985825515926116,
+  "seed": 424242,
+  "parameters_cast_to": "bfloat16",
+  "action_sampling_passed": true,
+  "first_sampling_seconds_including_compilation": 25.17241170629859,
+  "action_sample_shape": [
+    1,
+    50,
+    32
+  ],
+  "robot_commands_sent": false,
+  "optimizer_loaded": false,
+  "norm_stats_sha256": "8a29974738a197f81880b2a5ddccaf5f94084f1662ac6dbcaf1a978bbd64c280",
+  "seconds": 1811.3250771425664,
+  "note": "Offline loss is not task success rate. Batch size and bfloat16 conversion differ from training validation; losses are not strictly identical protocols."
+}
